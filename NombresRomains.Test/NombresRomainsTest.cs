@@ -5,6 +5,7 @@ public class NombresRomainsTest
     [Theory]
     [InlineData(1)]
     [InlineData(2)]
+    [InlineData(3)]
     public void Test1(uint chiffre)
     {
         // ETANT DONNE le chiffre <chiffre>

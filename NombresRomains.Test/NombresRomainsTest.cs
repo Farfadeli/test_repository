@@ -17,4 +17,13 @@ public class NombresRomainsTest
         var attendu = new string('I', (int) chiffre);
         Assert.Equal(attendu, nombreRomain);
     }
+
+    [Fact]
+    public void Test5()
+    {
+        var nombreRomain =
+            ConvertisseurNombresRomains.Convertir(5);
+        var attente = "V";
+        Assert.Equal(attente, nombreRomain);
+    }
 }

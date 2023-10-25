@@ -8,6 +8,6 @@ public static class ConvertisseurNombresRomains
         {
             return "V";
         }
-        return chiffre == 1 ? "II" :  chiffre == 2 ? "II" : "III";
+        return chiffre == 1 ? "I" :  chiffre == 2 ? "II" : "III";
     }
 }
